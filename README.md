@@ -17,3 +17,7 @@ Connection closed by 10.191.194.217 port 22
 
 ##### SO link: 
 https://serverfault.com/a/670081
+
+
+## docker mysql connection problems
+https://www.jeffgeerling.com/blog/2017/how-fix-host-1721801-not-allowed-connect-mysql-docker

@@ -43,7 +43,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Primary><Alt>Dele
 xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Primary><Alt>l' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Primary><Alt>Delete' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Primary><Alt>l' -r
-xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/xfwm4/custom/<Super>l' -s xflock4
+xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/commands/custom/<Super>l' -s xflock4
 
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Primary>F1' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Primary>F10' -r
@@ -71,6 +71,27 @@ xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Primary>F8' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Primary>F9' -r
 
 
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F11' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F12' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F1' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F2' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F3' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F4' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F6' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F8' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/custom/<Alt>F9' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F10' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F11' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F12' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F1' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F2' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F3' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F4' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F6' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F7' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F8' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/commands/default/<Alt>F9' -r
+
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Alt>F11' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Alt>F12' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Alt>F1' -r
@@ -92,9 +113,11 @@ xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Alt>F7' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Alt>F8' -r
 xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Alt>F9' -r
 
-xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/xfwm4/custom/<Alt>F1' -s xfce4-appfinder
+xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/commands/custom/<Super>F1' -s xfce4-appfinder
 
-#xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/custom/<Alt>Insert' -r
+xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Alt>Insert' -r
+
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
