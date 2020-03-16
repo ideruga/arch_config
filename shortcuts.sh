@@ -1,6 +1,12 @@
 #Show all shortcuts:
 xfconf-query -c xfce4-keyboard-shortcuts -l -v
 
+# Quick program startup
+xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/commands/custom/<Super>w' -s /usr/bin/chromium
+xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/commands/custom/<Super>i' -s /tools/idea/bin/idea.sh
+xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/commands/custom/<Super>s' -s /var/lib/snapd/snap/bin/slack
+
+
 #move between desktops
 xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/xfwm4/custom/<Super>Page_Up' -s left_workspace_key
 xfconf-query -n -c xfce4-keyboard-shortcuts -t string -p '/xfwm4/custom/<Super>Page_Down' -s right_workspace_key
@@ -132,5 +138,4 @@ xfconf-query -c xfce4-keyboard-shortcuts -p '/xfwm4/default/<Alt>Insert' -r
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
 #xfconf-query -c xfce4-keyboard-shortcuts -p '' -r
-
 
